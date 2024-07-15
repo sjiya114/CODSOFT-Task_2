@@ -1,0 +1,72 @@
+.navB {
+    background-color: rgb(215 146 189);
+    background-image: url('Untitled design.jpg');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height: 150px;
+}
+.navB1
+{
+    padding-top:30px;padding-left: 200px;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+.cards {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem
+}
+
+.cbody {
+    flex: 1 1 auto;
+    padding: 1rem 1rem
+}
+
+.ctitle {
+    margin-bottom: .5rem
+}
+
+.cimg {
+    width: 100% border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px)
+}
+
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #0d6efd;
+    transition: width .6s ease
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: black;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
+}
